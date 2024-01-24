@@ -21,21 +21,26 @@
         <h2 class="hero-title">We are launching <strong>soon!</strong></h2>
         <p class="hero-content">Subscribe and get notified</p>
       </div>
-      <form action="">
-        <div class="d-flex flex-column flex-md-row">
-          <input type="text" placeholder="Your email address">
-          <button class="form-btn">Notify Me</button>
+      <form action="" >
+        <div class="form-info d-flex flex-column flex-md-row">
+          <input type="email" name="email" placeholder="Your email address" class="input_box">
+          <input type="submit" value="Notify Me" class="button">
+        </div>
+        <div class="error-msg text-center text-lg-start position-relative">
+          <p class="error">Please provide a valid email</p>
         </div>
       </form>
       <div class="hero-img position-relative">
         <img src="./images/illustration-dashboard.png" alt="" class="picture">
       </div>
-      <div class="social-media">
-        <img src="" alt="facebook" class="socials">
-        <img src="" alt="twitter" class="socials">
-        <img src="" alt="instagram" class="socials">
+      <div class="social-media d-flex justify-content-center">
+        <img src="./icons/icons8-facebook-48.png" alt="facebook" class="socials">
+        <img src="./icons/icons8-twitter-48.png" alt="twitter" class="socials">
+        <img src="./icons/icons8-instagram-64.svg" alt="instagram" class="socials">
       </div>
     </section>
   </div>
+
+  <script src="./script.js"></script>
 </body>
 </html>

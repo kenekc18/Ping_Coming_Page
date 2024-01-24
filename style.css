@@ -37,7 +37,11 @@ form{
     margin-bottom:2rem;
 }
 
-form input{
+/* .form-info{
+    padding:0.8rem 0;
+} */
+
+.input_box{
     padding:0.8rem 1.9rem;
     margin:1rem 0;
     border:1px solid hsl(223, 100%, 88%);
@@ -48,13 +52,26 @@ form input{
     color:hsl(223, 100%, 88%);
 }
 
-.form-btn{
+.button{
     border:none;
     background:hsl(223, 87%, 63%);
     color:#fff;
     border-radius:25px;
-    padding:0 2.5rem;
+    padding:0.8rem 2.5rem;
     box-shadow:0 3px 6px hsl(223, 87%, 63%);
+}
+
+.button:hover{
+    background:hsl(223, 100%, 88%);
+}
+
+.error-msg{
+    display:none;
+}
+
+.error{
+    color:hsl(354, 100%, 66%);
+    font-style: italic;
 }
 
 .hero-img{
@@ -66,18 +83,31 @@ form input{
     width:100%;
 }
 
+.socials{
+    width:2.5rem;
+}
+
+.social-media{
+    margin:1rem 0;
+    margin-right: 0.5rem;
+}
+
 @media(min-width:860px){
-    .form-btn{
+    .button{
         margin: 1.6rem 0.5rem;
         /* padding:0 2.5rem; */
     }
 
-    form input{
+    .input_box{
         width:320px;
         margin:1.5rem 0;
     }
 
     .hero-img{
         left:1%;
+    }
+
+    .error-msg{
+        left:7%;
     }
 }
