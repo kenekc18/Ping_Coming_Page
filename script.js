@@ -1,6 +1,6 @@
 let form = document.querySelector('form');
 let input_box = document.querySelector('.input_box');
-let error_msg = document.querySelector('.error_msg')
+let error_msg = document.querySelector('.error-msg')
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();
